@@ -1,8 +1,13 @@
 package com.example.testapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.annotation.SuppressLint;
 import android.util.Log;
 import android.os.Bundle;
+import android.view.*;
+import android.widget.*;
+
 
 public class MainActivity extends AppCompatActivity {
     private static final String TAG = "MainActivity";
@@ -17,6 +22,16 @@ public class MainActivity extends AppCompatActivity {
         Log.i(TAG, "This is an info log.");
         Log.w(TAG, "This is a warn log.");
         Log.e(TAG, "This is an error log.");
+
+        Button button = (Button) findViewById(R.id.button2);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.i(TAG,"Button Clicked");
+            }
+        });
+
+
 
     }
 }
