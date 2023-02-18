@@ -6,16 +6,47 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Click Me!"
+    <LinearLayout
+        android:layout_width="366dp"
+        android:layout_height="620dp"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.533"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499" />
+        app:layout_constraintTop_toTopOf="parent">
 
+        <EditText
+            android:id="@+id/to"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/to" />
+
+        <EditText
+            android:id="@+id/subject"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:ems="10"
+            android:hint="@string/subject"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/message"
+            android:layout_width="match_parent"
+            android:layout_height="426dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="@string/message"
+            android:inputType="textMultiLine" />
+
+        <Button
+            android:id="@+id/send1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:insetLeft="280dp"
+            android:insetTop="10dp"
+            android:insetRight="10dp"
+            android:text="@string/send" />
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
