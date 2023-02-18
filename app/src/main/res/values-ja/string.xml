@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">test Application</string>
+    <string name="to">に</string>
+    <string name="subject">主題</string>
+    <string name="message">メッセージ</string>
+    <string name="send">送信</string>
+</resources>
