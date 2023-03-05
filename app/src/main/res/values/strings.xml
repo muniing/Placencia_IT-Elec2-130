@@ -4,4 +4,14 @@
     <string name="subject">Subject</string>
     <string name="message">Message</string>
     <string name="send">Send</string>
+    <string-array name="array_subjects">
+        <item>Human Computer Interaction</item>
+        <item>Introduction to Programming</item>
+        <item>System Administrator and Maintenance</item>
+        <item>System Architecture</item>
+        <item>Free Elective</item>
+        <item>Elective</item>
+        <item>Research in Computing</item>
+        <item>Database Management</item>
+    </string-array>
 </resources>
